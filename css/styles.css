@@ -1,0 +1,323 @@
+/*RESET CSS*/
+* {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*ESTILOS GENERALES*/
+
+h1 {
+    font-size: 6rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 2.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+h5 {
+    font-size: 2.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+}
+
+.subtitulo {
+    text-decoration: underline 1.2px black;
+}
+
+ul {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: black;
+    font-size: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+/*STYLES*/
+
+body {
+    background-color: white;
+}
+
+/*HEADER*/
+
+.header {
+    background-color: #E1DE91;
+    border: solid 3px #C3C17D;
+    border-bottom: 1.5px;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.foto_perfil {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
+}
+
+.h1_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1_container h1 {
+    border-radius: 1%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.vitae-h3 {
+    font-weight: normal;
+}
+
+/*NAV*/
+
+.ul_container {
+    background-color: #E1DE91;
+    border: solid 3px #C3C17D;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.ul_nav {
+    display: flex;
+    margin: 3rem 0rem 3rem 0rem;
+}
+
+.ul_nav li {
+    list-style: none;
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.navlink {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.navlink:hover {
+    color: white;
+    background-color: #C3C17D;
+    border-radius: 2%;
+}
+
+.actual-page_link {
+    color: white;
+    background-color: #C3C17D;
+    border-radius: 2%;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+/*PERFIL*/
+
+/* .perfil_section {
+    background-color: #CDCDCD;
+    border: solid 3px #A09C9C;
+    border-left: none;
+    border-right: none;
+} */
+
+.perfil_container {
+    background-color: #C3BBF6;
+    border-radius: 1%;
+    border: solid 1.5px #9589E0;
+    text-align: justify;
+    margin: 2rem 5rem 1.5rem 5rem;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.perfilh2_container {
+    display: inline-block;
+}
+
+.perfilh2 {
+    margin-bottom: 1rem;
+}
+
+/*INICIO*/
+/*CONTACTO*/
+
+.contacto_container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 5rem 10rem 5rem;
+}
+
+.contactoh3_container {
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+.contactoitems_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactoitem {
+    height: 10rem;
+    background-color: #ECECEC;
+    border-radius: 1%;
+    border: solid 1.5px #DADADA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+/*CONOCIMIENTOS*/
+
+.conocimientos_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 5rem 0rem;
+}
+
+.idiomas_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 5rem 5rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.idiomas-ul_container {
+    width: 100%;
+    background-color: #ECECEC;
+    border: solid 1.5px #DADADA;
+    border-radius: 1%;
+    margin-top: 3rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.idiomas_container ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.cursos_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 5rem 5rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.coder_container {
+    background-color: #ECECEC;
+    border-radius: 1%;
+    border: solid 1.5px #DADADA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.5rem 0rem 0rem 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.coder-items_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+/*ESTUDIOS*/
+
+.educacion_container {
+    margin: 5rem 5rem 10rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.educacion-items_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0rem 0rem 0rem;
+}
+
+.uade_container {
+    width: 50%;
+    background-color: #ECECEC;
+    border-radius: 1%;
+    border: solid 1.5px #DADADA;
+    margin-right: 2.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.lourdes_container {
+    width: 50%;
+    background-color: #ECECEC;
+    border-radius: 1%;
+    border: solid 1.5px #DADADA;
+    margin-left: 2.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+/*COMPETENCIAS*/
+
+.competencias_container {
+    margin: 5rem 5rem 10rem 5rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.mision_container {
+    background-color: #ECECEC;
+    border-radius: 1%;
+    border: solid 1.5px #DADADA;
+    margin: 5rem 0rem 0rem 0rem;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.mision_text {
+    padding-top: 2rem;
+}
