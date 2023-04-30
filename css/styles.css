@@ -143,12 +143,23 @@ body {
     border-radius: 2%;
 }
 
-/*FOOTER*/
+/*INICIOLINK*/
 
-footer {
+.iniciolink_container {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #E1DE91;
+    border: solid 3px #C3C17D;
+    border-left: none;
+    border-right: none;
+    margin: 0rem 0rem 3rem 0rem;
+    padding: 2rem 0rem 2rem 6rem;
 }
 
 /*PERFIL*/
